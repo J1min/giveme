@@ -27,6 +27,7 @@ export default function Button({
 
 export const StyledButton = styled.button`
   background-color: ${theme.main};
+  border-radius: 0.3rem;
   color: ${theme.white};
   padding: 0.5rem 1.25rem;
   font-weight: 900;
