@@ -19,6 +19,7 @@ const Main: NextPage = () => {
           <Title>
             <p>안녕하세요! 홍지민입니다.</p>
             <p>돈 주세요</p>
+            <p>110550537669 신한</p>
           </Title>
         }
         money={
