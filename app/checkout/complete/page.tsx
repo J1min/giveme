@@ -1,6 +1,8 @@
+"use client";
+
 import { useSearchParams } from "next/navigation";
 
-export function SuccessPage() {
+export default function SuccessPage() {
   const searchParams = useSearchParams();
 
   return (
