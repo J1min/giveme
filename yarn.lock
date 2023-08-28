@@ -1167,6 +1167,53 @@
   dependencies:
     tslib "^2.4.0"
 
+"@tosspayments/brandpay-types@^0.2.4":
+  version "0.2.5"
+  resolved "https://registry.yarnpkg.com/@tosspayments/brandpay-types/-/brandpay-types-0.2.5.tgz#ccf4ad07244fb38a387402d7f91d2366b64f3a5a"
+  integrity sha512-5Dudw9afTMekMj74m3g85Zs+M7jr0ldT21lQIZSevURXCctIhIdhLaX80WkV2rt0iOLjqv8327WoFdGsgeBgLA==
+
+"@tosspayments/payment-sdk@^1.6.4":
+  version "1.6.4"
+  resolved "https://registry.yarnpkg.com/@tosspayments/payment-sdk/-/payment-sdk-1.6.4.tgz#e32c9a0517271f6668dd0ffa2d7c66f982bcb708"
+  integrity sha512-60zpkCosNgb10+2o+qd4fFlo36n0n0xUD6G+YXpbT3Ljlb2ZK3D7AhBg9UdjM0JTEIHxS35U2r+y5wwztMOglg==
+  dependencies:
+    "@tosspayments/payment__types" "^1.64.2"
+
+"@tosspayments/payment-widget-sdk@^0.9.2":
+  version "0.9.2"
+  resolved "https://registry.yarnpkg.com/@tosspayments/payment-widget-sdk/-/payment-widget-sdk-0.9.2.tgz#a108ec8e226079352bc2fe6c8991e7c310fb11fb"
+  integrity sha512-LKQCw3EfOZWFkLx1Xk1KTzTDFbraBh0TtztIxyBgI9MVfrwlshuzdIdrwParQ5RvQrtjvSsoRiMCt4RKN764xw==
+  dependencies:
+    "@tosspayments/payment-widget__types" "^0.2.3"
+
+"@tosspayments/payment-widget-types@^0.0.4":
+  version "0.0.4"
+  resolved "https://registry.yarnpkg.com/@tosspayments/payment-widget-types/-/payment-widget-types-0.0.4.tgz#e6016a81805798b61129d0b5c8e6409bc0d59905"
+  integrity sha512-XYazYhks+Ky/WVfUlaEDVQIYk93ALqw2CSQ5/d/ig+MREusucEMRCU6K4Iq/0aeZn3ElpA8X2mkXUP1htykOng==
+
+"@tosspayments/payment-widget__types@^0.2.3":
+  version "0.2.3"
+  resolved "https://registry.yarnpkg.com/@tosspayments/payment-widget__types/-/payment-widget__types-0.2.3.tgz#2185413b2eba463a41eefebb2f57b5f54b9afd08"
+  integrity sha512-cNbDHVFLn7yhcpSyYtBmlxhUweHWaQ/dCBVvMRIefh7xYmulvcOSV8lEirs5k26McmCZrz58zv7JypttPSlTaQ==
+  dependencies:
+    "@tosspayments/brandpay-types" "^0.2.4"
+    "@tosspayments/payment-widget-types" "^0.0.4"
+    "@tosspayments/payment__types" "^1.66.1"
+
+"@tosspayments/payment__types@^1.64.2", "@tosspayments/payment__types@^1.66.1":
+  version "1.66.1"
+  resolved "https://registry.yarnpkg.com/@tosspayments/payment__types/-/payment__types-1.66.1.tgz#6b5dfffff3252314c2d9f809d1401f29cb94d118"
+  integrity sha512-8tNPUi42C7md0bPeh2/ullPmDQaxAuRpdAUJo3mqITX6ayVctXHdMOHrzR/rTJRZK5Cbu33+xAFvSq6eGQ0SOA==
+  dependencies:
+    "@tosspayments/sdk-constants" "^0.2.2"
+
+"@tosspayments/sdk-constants@^0.2.2":
+  version "0.2.2"
+  resolved "https://registry.yarnpkg.com/@tosspayments/sdk-constants/-/sdk-constants-0.2.2.tgz#91bd84fc1543eb2382b2a9b40792eed9f9146b1e"
+  integrity sha512-qTIcD9JnVtN65/yiW5sPAlvK5fpQtDluv4IEyslubncbQLQKE+ePSnGZU1fLNPxcchv6QTnwmgj9Ndm6EN/Ymg==
+  dependencies:
+    type-fest "^2.11.2"
+
 "@types/node@20.5.1":
   version "20.5.1"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-20.5.1.tgz#178d58ee7e4834152b0e8b4d30cbfab578b9bb30"
@@ -1589,6 +1636,11 @@ nanoid@^3.3.4, nanoid@^3.3.6:
   resolved "https://registry.yarnpkg.com/nanoid/-/nanoid-3.3.6.tgz#443380c856d6e9f9824267d960b4236ad583ea4c"
   integrity sha512-BGcqMMJuToF7i1rt+2PWSNVnWIkGCU78jBG3RxO/bZlnZPK2Cmi2QaffxGO/2RvWi9sL+FAiRiXMgsyxQ1DIDA==
 
+nanoid@^4.0.2:
+  version "4.0.2"
+  resolved "https://registry.yarnpkg.com/nanoid/-/nanoid-4.0.2.tgz#140b3c5003959adbebf521c170f282c5e7f9fb9e"
+  integrity sha512-7ZtY5KTCNheRGfEFxnedV5zFiORN1+Y1N6zvPTnHQd8ENUvfaDBeuJDZb2bN/oXwXxu3qkTXDzy57W5vAmDTBw==
+
 next@13.4.19:
   version "13.4.19"
   resolved "https://registry.yarnpkg.com/next/-/next-13.4.19.tgz#2326e02aeedee2c693d4f37b90e4f0ed6882b35f"
@@ -1854,6 +1906,11 @@ tslib@^2.4.0, tslib@^2.5.0:
   version "2.6.2"
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.6.2.tgz#703ac29425e7b37cd6fd456e92404d46d1f3e4ae"
   integrity sha512-AEYxH93jGFPn/a2iVAwW87VuUIkR1FVUKB77NwMF7nBTDkDrrT/Hpt/IrCJ0QXhW27jTBDcf5ZY7w6RiqTMw2Q==
+
+type-fest@^2.11.2:
+  version "2.19.0"
+  resolved "https://registry.yarnpkg.com/type-fest/-/type-fest-2.19.0.tgz#88068015bb33036a598b952e55e9311a60fd3a9b"
+  integrity sha512-RAH822pAdBgcNMAfWnCBU3CFZcfZ/i1eZjwFU/dsLKumyuuP3niueg2UAukXYF0E2AAoc82ZSSf9J0WQBinzHA==
 
 typescript@5.1.6:
   version "5.1.6"

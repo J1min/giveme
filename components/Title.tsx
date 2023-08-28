@@ -7,7 +7,7 @@ interface TitleProps {
 
 const TitleWrapper = styled.h1`
   text-align: center;
-  font-size: 4rem;
+  font-size: 3rem;
   line-height: 0.5;
   margin: 3rem 0;
 `;
